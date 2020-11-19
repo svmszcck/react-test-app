@@ -76,19 +76,19 @@ src
 
 # Details
 
-I tried to follow DRY, SOLID principles.
+I tried to follow **DRY, SOLID** principles.
 
 I have used caching in a lot of parts with the help of **useMemo, useEffect** hooks.
 
-Common(shared) types are in the "types.ts" file. Component specific types are directly in the component files.
+Common(shared) types are in the **types.ts** file. Component specific types are directly in the component files.
 
 App is responsive. You can test it on mobile screens :)
 
 I have used slug values in the url for better SEO.
 
-I have added a global Error Boundary to catch some possible errors in the component tree.
+I have added a global **Error Boundary** to catch some possible errors in the component tree.
 
-There is an helper component called ScrollTop.tsx which scrolls the page to top then the route changes.
+There is an helper component called **ScrollTop.tsx** which scrolls the page to top then the route changes.
 
 I have created a Loading Indicator component while the data is being loaded behind the scenes. For example backdrop images are too big in size, therefore I have created an helper function called **imageAsyncLoader** which waits for the image to be rendered on DOM(It is an async function which returns a promise). Therefore that will prevent flickering etc. in slow networks. You can check it here: **utils/general/general.ts**
 
@@ -96,4 +96,6 @@ In order to run the tests:
 
 **npm run test**
 
-I have added --silent flag to hide possible unwanted warnings. If you want to run a single test, you can do this: **jest filename.test.js**.
+I have added --silent flag to hide possible unwanted warnings. If you want to run a single test, you can do this:
+
+**jest filename.test.js**
