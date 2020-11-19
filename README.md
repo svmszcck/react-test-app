@@ -70,6 +70,7 @@ src
 │   └── ui.ts
 ├── app_config.js => global config variables
 ├── mocks.js => mocks for the tests
+├── router.tsx => global router
 ├── types.ts => global types
 
 ```
