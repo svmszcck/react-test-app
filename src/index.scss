@@ -1,0 +1,52 @@
+@import "assets/styles/colors.scss";
+
+html,
+body {
+  background-color: $GRAY_LIGHT;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//Global Styles
+
+.link {
+  color: initial;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $GRAY_DARK;
+  border-radius: 10px;
+  border: 2px solid $WHITE;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
