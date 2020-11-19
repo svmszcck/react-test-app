@@ -10,6 +10,7 @@ export const sendRequest = async (path: string, params: object = {}) => {
         ...params,
       },
     });
+
     return response?.data;
   } catch (err) {
     console.log("Api Error: ", err);
